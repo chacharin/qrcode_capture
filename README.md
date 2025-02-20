@@ -27,7 +27,7 @@ It is recommended to use a virtual environment to manage the project dependencie
 ```bash
 # On Windows
 python -m venv venv
-venv\Scriptsctivate
+venv\Scripts\activate
 
 # On macOS/Linux
 python3 -m venv venv
