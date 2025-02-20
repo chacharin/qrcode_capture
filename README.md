@@ -8,7 +8,7 @@ This project is designed to detect QR codes using OpenCV and save images from th
 - Captures images from the webcam when a QR code is detected.
 - Saves images with filenames in the format:
   ```
-  {day-Month(3Char)-year hour:minute:second_"sanitized encoding text"}.png
+  {day-month-year hour:minute:second_"sanitized encoding text"}.png
   ```
 - Creates a folder named `saved_images` to store the captured images.
 
@@ -18,7 +18,7 @@ This project is designed to detect QR codes using OpenCV and save images from th
 First, clone this repository to your local machine.
 
 ```bash
-git clone https://github.com/yourusername/qr-code-detection.git
+git clone https://github.com/chacharin/qrcode_capture.git
 ```
 
 ### 2. Set up a Virtual Environment
@@ -52,7 +52,7 @@ This will install the following libraries:
 Once the environment is set up and dependencies are installed, you can run the QR code detection script.
 
 ```bash
-python qr.py
+python qr-reader-capture.py
 ```
 
 This will open your webcam and start scanning for QR codes. When a QR code is detected, the image will be saved in the `saved_images` folder, with a filename containing the timestamp and the QR code text.
@@ -71,7 +71,7 @@ To stop the application, simply press the `q` key while the webcam window is act
 ```
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
 
 ## Acknowledgements
 - OpenCV: The primary library used for QR code detection and image capture.
