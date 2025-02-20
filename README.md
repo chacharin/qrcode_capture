@@ -64,7 +64,7 @@ To stop the application, simply press the `q` key while the webcam window is act
 
 ```
 .
-├── qr.py                    # Main script for QR code detection and image capture
+├── qr-reader-capture.py                    # Main script for QR code detection and image capture
 ├── requirements.txt          # List of project dependencies
 ├── saved_images/             # Folder where captured images will be saved
 └── README.md                 # Project documentation
